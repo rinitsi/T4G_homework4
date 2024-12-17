@@ -1,0 +1,97 @@
+.head{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    background-color:rgb(26, 26, 40);
+    color: white;
+    margin-top: 50px;
+}
+
+.banner{
+    background-image: url(../imagesfolder/11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200vh;
+    }
+
+.second{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}    
+
+.div1{
+    width: 30%;
+    background-color: rgb(210, 207, 207);
+}
+.div2{
+    width: 30%;
+    background-color: rgb(210, 207, 207);
+}
+.div3{
+    width: 30%;
+    background-color: rgb(210, 207, 207);
+}
+.img1{
+    width: 300px;
+    height: 300px;
+    margin-left: 50px; 
+}
+
+.abot{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.abot p{
+    margin-top: 60px;
+    margin-right: 80px;
+}
+
+.img2{
+    width: 500px;
+    height: 300px;
+}
+
+.both{
+    background-color: ;
+}
+
+.staffdiv{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    background-color: rgb(125, 123, 123);
+}
+
+.img3{
+    width: 100%;
+    height: auto;
+}
+
+.parablue{
+    color: blue;
+    font-size: 60px;
+    text-align: center;
+}
+
+.p1{
+    position: absolute;
+}
+
+.div4{
+    margin-top: 70px;
+    display: flex;
+}
+
+.div5{
+    font-size: 30px;
+}
+
+.img4{
+    width: 500px;
+    height: 700px;
+}
