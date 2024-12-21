@@ -11,11 +11,16 @@
 
     <header class="banner">
             <nav class="head">
-                <p>Flexbox Layout</p>
-                <p>Home</p>
-                <p>About</p>
-                <p>Stuff</p>
-                <p>contact</p>
+                <ul class="headnav">
+                    <li>
+                        <a href="FlexboxLayout" class="felex">FlexboxLayout</a>
+                        <a href="Home" class="hom">Home</a>
+                        <a href="#about-section" class="about">About</a>
+                        <!-- the a href = "#about-section" in here is what links the id="about-section"in the third section below. so a click on About here sends you to the Id in the third section so it scrolls down.  -->
+                        <a href="#abot-section" class="staff">Staff</a>
+                        <a href="Contact" class="cont">Contact</a>
+                    </li>
+                </ul>
             </nav>
     </header>  
 
@@ -38,7 +43,7 @@
             </div>
     </section>
 
-    <section class="abot">
+    <section id="abot-section" class="abot">
         <img class="img2" src="imagesfolder/4.jpg" alt="">
         <div class="both">
         <h1>About Us</h1>
@@ -46,7 +51,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="staff-section">
         <h1 class="parablue"> <u>Staff Services</u></h1>
         <div class="staffdiv">
             <div> 
